@@ -2,16 +2,17 @@
 
 ## (Review) Coding in VS Code
 
-* Syntax for typescript scripts
-* How the project operates
-* Writing a test file
-* Using Ethers.js library
-* Using Hardhat toolbox
-* Using Typechain library
-* Testing syntax
-* Running a test file
+- Syntax for typescript scripts
+- How the project operates
+- Writing a test file
+- Using Ethers.js library
+- Using Hardhat toolbox
+- Using Typechain library
+- Testing syntax
+- Running a test file
 
 ### References
+
 <https://docs.ethers.io/v5/>
 
 <https://hardhat.org/hardhat-runner/docs/getting-started#overview>
@@ -26,22 +27,23 @@
 
 ## Introduction for Ballot.sol
 
-* Scenario strategy
-* The Ballot contract
-* Giving voting rights
-* Voting
-* Delegating
-* Proposals
+- Scenario strategy
+- The Ballot contract
+- Giving voting rights
+- Voting
+- Delegating
+- Proposals
 
 ### References
+
 <https://docs.soliditylang.org/en/latest/solidity-by-example.html#voting>
 
 ## Writing unit tests for Ballot.sol
 
-* More on Ether.js functions and utilities
-* Bytes32 and Strings conversion
-* Helper functions inside test scripts
-* Unit tests structure and nested tests
+- More on Ether.js functions and utilities
+- Bytes32 and Strings conversion
+- Helper functions inside test scripts
+- Unit tests structure and nested tests
 
 ### Code reference for tests
 
@@ -184,5 +186,5 @@
 
 ## Homework
 
-* Create Github Issues with your questions about this lesson
-* Read the references
+- Create Github Issues with your questions about this lesson
+- Read the references
