@@ -1,17 +1,30 @@
-# Lesson 9 - MyERC20.sol and MyERC721.sol
+# Sample Hardhat Project
+
+This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+
+Try running some of the following tasks:
+
+```shell
+npx hardhat help
+npx hardhat test
+REPORT_GAS=true npx hardhat test
+npx hardhat node
+npx hardhat run scripts/deploy.ts
+```
 
 ## Quickstart with OpenZeppelin wizard
 
-* Overview about Ethereum Improvement Proposals (EIPs)
-* Overview about Application-level standards and conventions (ERCs)
-* Explain about OpenZeppelin Contracts library
-* (Review) Objects in smart contracts
-* Inheritance overview
-* Overview about ERC20
-* Overview about ERC721
-* Using OpenZeppelin wizard
+- Overview about Ethereum Improvement Proposals (EIPs)
+- Overview about Application-level standards and conventions (ERCs)
+- Explain about OpenZeppelin Contracts library
+- (Review) Objects in smart contracts
+- Inheritance overview
+- Overview about ERC20
+- Overview about ERC721
+- Using OpenZeppelin wizard
 
 ### References
+
 <https://eips.ethereum.org/>
 
 <https://eips.ethereum.org/erc>
@@ -52,14 +65,15 @@
 
 ## Contract structure
 
-* Syntax about inheritance
-* Overview about OpenZeppelin features for ERC20 and ERC721
-* Overview about OpenZeppelin features for Access Control
-* Overview about OpenZeppelin utilities and components
-* Adding minting feature
-* Adding RBAC feature
+- Syntax about inheritance
+- Overview about OpenZeppelin features for ERC20 and ERC721
+- Overview about OpenZeppelin features for Access Control
+- Overview about OpenZeppelin utilities and components
+- Adding minting feature
+- Adding RBAC feature
 
 ### References
+
 <https://www.npmjs.com/package/@openzeppelin/contracts>
 
 <https://docs.openzeppelin.com/contracts/4.x/extending-contracts>
@@ -68,24 +82,25 @@
 
 ## Operating the contracts with scripts
 
-* (Review) Script operation
-* (Review) Accounts and funding
-* (Review) Providers
-* (Review) Async operations
-* (Review) Running scripts on test environment
-* (Review) Contract factory and json imports
-* (Review) Transaction receipts and async complexities when running onchain
+- (Review) Script operation
+- (Review) Accounts and funding
+- (Review) Providers
+- (Review) Async operations
+- (Review) Running scripts on test environment
+- (Review) Contract factory and json imports
+- (Review) Transaction receipts and async complexities when running onchain
 
 ## Events with solidity
 
-* Event syntax
-* Event storage
-* Event indexing
-* Topics and filters
-* Transaction structure
-* State changes with events
+- Event syntax
+- Event storage
+- Event indexing
+- Topics and filters
+- Transaction structure
+- State changes with events
 
 ### References
+
 <https://docs.soliditylang.org/en/latest/contracts.html#events>
 
 <https://docs.ethers.org/v5/concepts/events/>
@@ -94,16 +109,17 @@
 
 ## Watching for events in tests
 
-* Event syntax with Hardhat Chai Matchers
-* Triggering an event
-* Checking arguments
+- Event syntax with Hardhat Chai Matchers
+- Triggering an event
+- Checking arguments
 
 ### References
+
 <https://hardhat.org/hardhat-chai-matchers/docs/overview#events>
 
 ---
 
 ## Homework
 
-* Create Github Issues with your questions about this lesson
-* Read the references
+- Create Github Issues with your questions about this lesson
+- Read the references
